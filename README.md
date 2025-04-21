@@ -91,12 +91,14 @@ Para construir e executar em ambiente de produção:
 
 ```bash
 npm run build
-npm run start:prod
+npm run start
 ```
 
 ---
 
 ## 🐳 Docker
+
+Para criar a imagem docker e subir a imagem no docker desktop
 
 ```bash
 docker compose build
