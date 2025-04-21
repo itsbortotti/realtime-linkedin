@@ -64,4 +64,8 @@ To build and run in production:
 npm run build
 npm run start:prod
 \`\`\`
+
+## Docker
+ Docker compose build
+ Docker compose up -d
 "@
