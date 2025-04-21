@@ -60,7 +60,6 @@ src/
 
 ## 📡 Endpoints da API
 
-- `POST /linkedin/profile` – Salva os dados de um perfil do LinkedIn
 - `GET /linkedin/profiles` – Recupera todos os perfis armazenados
 
 ---
