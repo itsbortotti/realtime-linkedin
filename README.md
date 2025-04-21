@@ -1,72 +1,37 @@
-Set-Content -Path "c:\Users\adria\OneDrive\Desktop\BOT_SCRAPING\README.md" -Value @"
-# LinkedIn Profile Scraping API
+# 📊 LinkedIn Profile Scraping API
 
-## Overview
-NestJS application designed to scrape LinkedIn profiles and store data in MongoDB.
+API desenvolvida com NestJS para extração de perfis públicos do LinkedIn e armazenamento dos dados em MongoDB.
 
-## Tech Stack
-- NestJS
-- MongoDB
-- TypeScript
-- Mongoose
+---
 
-## Prerequisites
-- Node.js (v14 or higher)
-- MongoDB
-- npm or yarn
+## ⚙️ Tecnologias Utilizadas
 
-## Installation
+- **NestJS** – Framework Node.js para construção de APIs escaláveis
+- **MongoDB** – Banco de dados NoSQL para persistência dos dados
+- **TypeScript** – Tipagem estática para JavaScript
+- **Mongoose** – ODM para integração entre Node.js e MongoDB
 
-1. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
+---
 
-2. Ensure MongoDB is running on port 27017
+## 📁 Estrutura do Projeto
 
-3. Start the application:
-\`\`\`bash
-npm run start:dev
-\`\`\`
-
-## Database Configuration
-- Database Name: Perfil_LK
-- Default MongoDB URL: mongodb://127.0.0.1:27017
-- Collection: linkedinprofiles
-
-## Project Structure
-\`\`\`
+```
 src/
-├── linkedin/         # LinkedIn module
-├── app.module.ts     # Main application module
-└── main.ts          # Application entry point
-\`\`\`
+├── linkedin/         # Módulo responsável pela lógica de scraping e rotas
+├── app.module.ts     # Módulo principal da aplicação
+└── main.ts           # Ponto de entrada da aplicação
+```
 
-## API Endpoints
-- POST /linkedin/profile - Save LinkedIn profile data
-- GET /linkedin/profiles - Retrieve all profiles
+---
 
-## Error Handling
-The application includes error handling for:
-- Database connection issues
-- Invalid data formats
-- Server errors
+## 🧰 Pré-requisitos
 
-## Development
-To run in development mode with hot-reload:
-\`\`\`bash
-npm run start:dev
-\`\`\`
+- Node.js (v14 ou superior)
+- MongoDB em execução local na porta padrão (27017)
+- npm ou yarn
 
-## Production
-To build and run in production:
-\`\`\`bash
-npm run build
-npm run start:prod
-\`\`\`
+---
 
-## Docker
-- Docker compose build
-- Docker compose up -d
-  
-"@
+## ✨ Instalação e Execução
+
+1. Instale as dependências:
