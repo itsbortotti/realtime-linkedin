@@ -98,7 +98,10 @@ npm run start:prod
 
 ## 🐳 Docker
 
-Em breve...
+```bash
+docker compose build
+docker compose up -d
+```
 
 ---
 
